@@ -1,0 +1,14 @@
+I"“<p><b>Taking care of servers, firmware integration, debian packages, analytics</b><br /> <b>Lead for:<br /></b></p>
+<ul>
+  <li>sysadmins/devops</li>
+  <li>firmware integration team</li>
+  <li>analytics (ELK)<br /><br /></li>
+</ul>
+
+<p><b>Activities:</b><br /> Maintenance of the server fleet (roughly 200-ish physical servers, VMâ€™s, AWS/EC2 or GCP hosts)<br /> Package maintainer for our own internal software - Debian, RedHAT<br /> Package maintainer for mips/arm (openwrt based)<br /> Backporting libraries for OpenWRT apps (c/c++)<br /> Porting packages for OpenWRT<br /> Porting our solution to Intel Quark (Galileo) Maintaining internal apps and tools<br /> Maintaing analytics platform(s) and gathering of data, alongside other colleagues <br /> Database monitoring, performance tweaking and configuration<br /> Writing scripts for SysV init, OpenRC, systemd, Monit, Nagios and others<br /> New deployments, manual, automated or semi-automated, with all the things in place:</p>
+<ul>
+  <li>database (including replication)</li>
+  <li>NFS mounts (or replicated disk mounts)</li>
+  <li>networking with multiple zones, firewall, routing rules, BGP, IPsec</li>
+</ul>
+:ET

@@ -1,0 +1,20 @@
+summary: <h4>Searching for a job in IT, be it remote or onsite (Iasi, Romania).</h4>
+    Please do not contact me for opportunities that require skills that I do not own, nor for ones 
+    that require less skills/expertise than I currently have.<br /><br />
+
+
+    Eighteen year old with 16yr experience in *nix based systems.<br />
+    Perl, bash, sed, awk, make, cmake, ansi c, some php, kernel hacking, embedded dev (mips, arm, atmel/arduino).<br />
+    Networking experience&#x3A; Mikrotik, Cisco L2-3, bgp, ospf, rip, multihoming.<br />
+    Virtualization&#x3A; OpenVZ, Xen, Kvm, Qemu, VmWare, VirtualBox, FreeBSD containers, lxc, docker
+
+education:
+    - degree: Engineer's degree (NO LICENCE)
+      school: „Gheorghe Asachi” Technical University, Iasi
+      school_time: 2011 - 2015
+      school_certificate: „Technologies and telecommunications systems”
+
+    - degree: High school
+      school: „Gheorghe Airinei” Technical College, Bucharest
+      school_time: 1999 - 2003
+      school_certificate: Telecom electronist

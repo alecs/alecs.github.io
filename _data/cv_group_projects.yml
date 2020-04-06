@@ -1,0 +1,9 @@
+- title: Analytics
+  company: eZLO LTD
+  info: Gathering data from out cloud platforms, to be able to display metrics of the most important 
+    aspects of the business.
+
+- title: Logs download interface (for customer care)
+  company: eZLO LTD
+  info: Using OSS, created a protected web portal to help customer care download logs from the client 
+    owned devices, so they help the client (and development team) debug any issues.

@@ -1,0 +1,71 @@
+- name: QEMU
+  level: 95
+
+- name: XEN
+  level: 90
+
+- name: OpenVZ
+  level: 99
+
+- name: LXC
+  level: 90
+
+- name: Docker
+  level: 80
+
+- name: Kubernetes
+  level: 50
+
+- name: MySQL Administration
+  level: 88
+
+- name: PgSQL Administration
+  level: 70
+
+- name: LAMP management
+  level: 92
+
+- name: Perl
+  level: 70
+
+- name: BASH
+  level: 100
+
+- name: ANSI C
+  level: 60
+
+- name: Networking (IPv4)
+  level: 95
+
+- name: CISCO L2/L3
+  level: 75
+
+- name: Mikrotik
+  level: 90
+
+- name: iptables
+  level: 99
+
+- name: FreeBSD PF
+  level: 80
+
+- name: pfSense
+  level: 85
+
+- name: OpnSense
+  level: 85
+
+- name: IpCOP
+  level: 95
+
+- name: OpenVPN
+  level: 99
+
+- name: IPsec
+  level: 95
+
+
+
+
+
+

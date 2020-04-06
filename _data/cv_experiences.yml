@@ -1,0 +1,65 @@
+- title: Sr DevOPS Engineer and Team Lead (JACK OF ALL TRADES)
+  time: October 2013  - current
+  company: eZLO
+  info: <b>Taking care of servers, firmware integration, debian packages, analytics</b><br />
+    <b>Lead for:<br /></b>
+
+    * sysadmins/devops
+
+    * firmware integration team
+
+    * analytics (ELK)<br /><br />
+
+
+    <b>Activities:</b><br/>
+    Maintenance of the server fleet (roughly 200-ish physical servers, VM's, AWS/EC2 or GCP hosts)<br />
+    Package maintainer for our own internal software - Debian, RedHAT<br />
+    Package maintainer for mips/arm (openwrt based)<br />
+    Backporting libraries for OpenWRT apps (c/c++)<br />
+    Porting packages for OpenWRT<br />
+    Porting our solution to Intel Quark (Galileo)
+    Maintaining internal apps and tools<br />
+    Maintaing analytics platform(s) and gathering of data, alongside other colleagues <br />
+    Database monitoring, performance tweaking and configuration<br />
+    Writing scripts for SysV init, OpenRC, systemd, Monit, Nagios and others<br />
+    New deployments, manual, automated or semi-automated, with all the things in place&#x3A;
+
+    * database (including replication)
+
+    * NFS mounts (or replicated disk mounts)
+
+    * networking with multiple zones, firewall, routing rules, BGP, IPsec
+
+
+    ___
+
+    Name and address of employer&#x3A; eZLO Romania, Poitiers 16 Blvd, Iaşi, Romania
+
+- title: Perl programmer
+  time: August 2012 - Oct 2013
+  company: Mind CTI
+  info:
+    Developing plugins/modules for the Nagios monitoring system, with Perl and C, both server part and client part (nsclient++/nrpe)< br />
+    Create web interfaces with Perl<br />
+    Patch internal scrips done by other colleagues or for OSS that Mind uses<br />
+    Develop patches for ticketing system based on Otrs and maintain Oracle database<br />
+
+
+    ___
+
+    Name and address of employer&#x3A; Mind CTI, Ciurchi 126-128, Iaşi, Romania
+
+- title: Sysadmin
+  time: June 2005 - August 2010
+  company: XCT.RO ONLINE
+  info:
+    Management of servers and network<br />
+    Software/hardware testing<br />
+    Website developer - php, Perl, MySQL/PgSQL + wpress/textpattern/osCommerce<br />
+    Installing and configuring servers and workstations, switches and routers<br />
+    Maintaining the nwtwork for a small ISP with <100 customers<br />
+
+
+    ___    
+
+    Name and address of employer&#x3A; SC HOL.RO SRL, C-tin Rădulescu Motru 25, 4rd district, Bucharest

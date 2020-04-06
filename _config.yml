@@ -1,0 +1,33 @@
+# Your Website Title
+title: Alex Negulescu
+
+# Your Website URL
+url: 'http://alecs.github.io'
+
+# Leave it default
+baseurl: '' 
+
+# Google Analytics
+ga_index: UA-162928903-1
+ga_cv: UA-162928903-1
+
+# Index page and Profile Information
+name: Alex Negulescu
+tagline: Sr DevOPS, SmartHome/IoT & Networking
+pic: profile.png
+description: Sr DevOPS, IoT, Integration, SmartHome, Networking, Reverse Engineering
+description_tiny: 'Office: +40373747743'
+email: alecs+filtered@negulescu.me
+website: alecs.github.io # do not add http://
+linkedin: alecsey
+github: alecs
+twitter: '@antis0cialul'
+
+# Files or folders to be excluded
+exclude: [gitbook_source_code/ gitbook/]
+
+# All the plugins for Jekyll
+plugins:
+  - jekyll-sitemap
+
+#  - wdm-0.1.1

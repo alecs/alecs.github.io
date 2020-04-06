@@ -1,0 +1,11 @@
+- name: Romanian
+  level: Native
+
+- name: English 
+  level: Fluent
+
+- name: Spanish
+  level: Advanced
+
+- name: French
+  level: Basic

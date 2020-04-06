@@ -1,0 +1,40 @@
+- title: encrypted-firmware-retrieval
+  company: eZLO LTD
+  info: We needed to have a method to deliver embedded device firmware through a secured (or not) 
+    connection, but having the datastream protected in a dynamic way, so that every device 
+    downloading the firmware will be downloading different content, decrypting it locally after the 
+    download.
+
+- title: encrypted-backup
+  company: eZLO LTD
+  info: Created an algorithm to encrypt the backup containing the critical files stored on an embedded device.
+
+- title: getPermissions
+  company: eZLO LTD
+  info: Created an AWK script that was used to decode a base64 string and parse the encapsulated json,
+    checking for certain variables and settings stored in the object.
+
+- title: OnCall manager
+  info: Took LinkedIn's implementation of oncall and adapted it so it supports authenticating against 
+    database stored users. Code will be pushed online eventually.
+
+- title: motionpie
+  link: https://github.com/alecs/motionpie
+  time: 2015 - 2016
+  info: Ported the stack for Banana M3 PRO.
+    Initially it was only working on Raspberry PI, and I only had BananaPI's. I had to use a 
+    different kernel and also adapt some build parameters. I also updated some packages that were 
+    installed by default.
+
+- title: fup.sh
+  link: https://github.com/alecs/fupsh
+  time: 2011-2013
+  info: While having a smallish ISP, the users were connecting through PPtP, and we needed a way of fairly sharing the outbound bandwidth between users.<br />
+    There were also other methods, like using a VM and apply QoS on the traffic through it, but this 
+    was good enough at the time.
+
+- title: smokeping-plugins
+  link: https://github.com/alecs/smokeping-plugins
+  info: I was in need of a plugin that was small and fast and could run on a small monitoring system 
+    that I already had. So I created a minimal Perl plugin, that works with smokeping; the plugin 
+    monitors the current latency of a MySQL server.

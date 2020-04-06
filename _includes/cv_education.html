@@ -1,0 +1,11 @@
+<div class="education-container container-block">
+<h2 class="container-block-title">Education</h2>
+	{% for graduation in site.data.cv_profile.education %}
+    <div class="item">
+        <h4 class="degree">{{ graduation.degree }}</h4>
+        <h5 class="meta">{{ graduation.school }}</h5>
+        <div class="time">{{ graduation.school_time }}</div>
+        <div class="time"><h6>{{ graduation.school_certificate }}</h6></div>
+    </div><!--//item-->
+	{% endfor %}
+</div><!--//education-container-->
