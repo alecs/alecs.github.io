@@ -1,5 +1,6 @@
 _site/
 .sass-cache/
 .jekyll-metadata
+.jekyll-cache/
 gitbook_source_code/node_modules
 gitbook_source_code/_book
