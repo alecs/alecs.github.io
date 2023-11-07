@@ -12,13 +12,6 @@ img {
   pointer-events: none;
 }
 
-@media print{
-  body {
-    display:none;
-    visibility:hidden;
-  }
-}
-
 body {
   font-family: 'Roboto', sans-serif;
   color: #545E6C;
@@ -248,11 +241,31 @@ p {
   margin-bottom: 15px;
   overflow: hidden;
 }
+
+@media print { 
+  .skillset .item {
+    margin-bottom: 15px;
+    float: left;
+    margin-left:10px;
+    overflow: hidden;
+  }
+
+  .skillset {
+    display: table-cell;
+    float: none;
+  }
+
+  .skills-section .section-title {
+    padding-top: 140px;
+  }
+}
+
 .skillset .level-title {
   font-size: 14px;
   margin-top: 0;
   margin-bottom: 12px;
 }
+
 .skillset .level-bar {
   height: 12px;
   background: #f5f5f5;

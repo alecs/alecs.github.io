@@ -1,7 +1,7 @@
 - title: Sr DevOPS Engineer and Team Lead (JACK OF ALL TRADES)
   time: October 2013  - current
   company: eZLO
-  info: <b>Taking care of servers, firmware integration, debian packages, analytics</b><br />
+  info: <b>Caring for servers and virtual machines, alongside firmware integration, packaging (deb/rpm), analytics (ELK)</b><br />
     <b>Lead for:<br /></b>
 
     * sysadmins/devops
@@ -10,21 +10,22 @@
 
     * analytics (ELK)<br /><br />
 
-
     <b>Activities:</b><br/>
     Maintenance of the server fleet (roughly 200-ish physical servers, VM's, AWS/EC2 or GCP hosts)<br />
     Package maintainer for our own internal software - Debian, RedHAT<br />
     Package maintainer for mips/arm (openwrt based)<br />
     Backporting libraries for OpenWRT apps (c/c++)<br />
     Porting packages for OpenWRT<br />
-    Porting our solution to Intel Quark (Galileo)
+    Porting our solution to Intel Quark (Galileo)<br />
     Maintaining internal apps and tools<br />
     Maintaing analytics platform(s) and gathering of data, alongside other colleagues <br />
     Database monitoring, performance tweaking and configuration<br />
     Writing scripts for SysV init, OpenRC, systemd, Monit, Nagios and others<br />
+    Writing IaC - Helm, Terraform, Puppet, Ansible<br />
+    Office networking-  pfSense, OPNSense, Mikrotik, Juniper, VLAN<br />
     New deployments, manual, automated or semi-automated, with all the things in place&#x3A;
 
-    * database (including replication)
+    * databases (including replication)
 
     * NFS mounts (or replicated disk mounts)
 

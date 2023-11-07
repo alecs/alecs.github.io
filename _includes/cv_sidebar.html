@@ -31,6 +31,10 @@
         {% if site.twitter %}
             <li class="twitter"><i class="fa fa-twitter"></i><a href="https://twitter.com/{{site.twitter}}" target="_blank">{{site.twitter}}</a></li>
         {% endif %}
+        
+        {% if site.pdfcv %}
+            <li class="twitter"><i class="fa fa-paperclip"></i><a href="http://{{site.website}}/{{site.pdfcv}}" target="_blank">{{site.pdfcv}}</a></li>
+        {% endif %}
         </ul>
     </div>
     <!--//contact-container-->

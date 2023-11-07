@@ -4,6 +4,9 @@
 - name: XEN
   level: 90
 
+- name: Proxmox
+  level: 90
+
 - name: OpenVZ
   level: 99
 
@@ -14,7 +17,13 @@
   level: 80
 
 - name: Kubernetes
-  level: 50
+  level: 85
+
+- name: k3s
+  level: 85
+
+- name: podman
+  level: 85
 
 - name: MySQL Administration
   level: 88
@@ -40,6 +49,9 @@
 - name: CISCO L2/L3
   level: 75
 
+- name: JunOS
+  level: 50
+
 - name: Mikrotik
   level: 90
 
@@ -63,6 +75,15 @@
 
 - name: IPsec
   level: 95
+
+- name: WireGuard
+  level: 90
+
+- name: Terraform
+  level: 85
+
+- name: helm
+  level: 80
 
 
 

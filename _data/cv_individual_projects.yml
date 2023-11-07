@@ -1,3 +1,8 @@
+- title: digitalocean-cluster-setup
+  link: https://github.com/SysOPSRO/digitalocean-cluster-setup
+  info: Needed an easy way to add RBAC (auth) to an existing k8s DigitalOcean cluster by bundling some
+    open source tools into a simple to deploy helm repo.
+
 - title: encrypted-firmware-retrieval
   company: eZLO LTD
   info: We needed to have a method to deliver embedded device firmware through a secured (or not) 

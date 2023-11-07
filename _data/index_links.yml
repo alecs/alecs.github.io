@@ -1,3 +1,7 @@
 - link: cv
   hover_text: My resume (Alex Negulescu)
   title: CV
+
+- link: cv.pdf
+  hoover_text: My resume - PDF (Alex Negulescu)
+  title: CV PDF 📑
