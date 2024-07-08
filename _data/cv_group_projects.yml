@@ -1,3 +1,14 @@
+- title: trudesk-fork
+  link: https://github.com/SysOPSRO/trudesk
+  info: Needed an easy to manage service desk like alternative, since the team was big at that time.<br />
+    Took the open source truedesk, adapted it to docker initially <a style="border-bottom:1px grey solid; font-weight:bold;" 
+     target="_blank" href="https://github.com/polonel/trudesk/issues/326#issuecomment-760354190">per this comment</a> and then also did a patch to have mobile UI working.<br />
+    Have some other patches that were not published yet, including requirement to have tags to create a ticket, helm(k8s) deployment, nginx delivery of static content - ie only /api/ is delivered by trudesk itself.
+
+- title: i-MSCP
+  link: https://github.com/SysOPSRO/imscp
+  info: OSS Hosting control, to which I contributed a few minor changes.
+
 - title: aws-elk-billing
   link: https://github.com/SysOPSRO/aws-elk-billing
   info: Tools for Loading and Visualizing GCP and AWS Detailed Billing with ELK(Elasticsearch, Logstash, Kibana)
@@ -11,3 +22,13 @@
   company: eZLO LTD
   info: Using OSS, created a protected web portal to help customer care download logs from the client 
     owned devices, so they help the client (and development team) debug any issues.
+
+- title: Private datacenter cloud (Orange France)
+  company: eZLO LTD
+  info: Designed the architecture to run our solution in a private cloud, via virtual machines running Red Hat Linux on VMWare nodes.<br />
+    Lead all the aspects related to the project&#x3A; meetings, design, porting from Ubtunu to Red Hat, installation, setup monitoring (passive and active).
+
+- title: AWS SmartHome Cloud w private mobile APN in AT&T
+  company: eZLO LTD
+  info: Our client was manufacturing and selling an alarm panel, with no WiFi capability - only 3g/4g SIM. We had to make a setup that was secure and accomodated client requests.<br />
+    The SIM was provisioned in a different APN, with no access to DNS or any external service; it was only allowed to access specific IP addresses (which were private)

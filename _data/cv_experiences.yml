@@ -1,16 +1,29 @@
 - title: Sr DevOPS Engineer and Team Lead (JACK OF ALL TRADES)
   time: October 2013  - current
   company: eZLO
-  info: <b>Caring for servers and virtual machines, alongside firmware integration, packaging (deb/rpm), analytics (ELK)</b><br />
+  info: <b>Caring for clusters (k8s, docker), servers, virtual machines,<br />
+    alongside firmware integration, packaging (deb/rpm), analytics (ELK)</b><br /><br />
+
     <b>Lead for:<br /></b>
 
-    * sysadmins/devops
+    * devops/sysadmins
 
-    * firmware integration team
+    * firmware integration team (2014-2020)
 
-    * analytics (ELK)<br /><br />
+    * analytics (ELK) (2016-2020)<br /><br />
 
-    <b>Activities:</b><br/>
+    <b>Activities:</b><br/><br/>
+    Infrastructure design and deployment in AWS, GKE, DigitalOcean, Hetzner, Oracle, Azure or hybrid environments.<br />
+    Automating cloud components build and deploy for k8s, docker, lxc/lxd or VM's with all the things in place&#x3A;
+
+    * databases (including replication, sharding)
+
+    * NFS mounts, CEPH, iSCSI, glusterFS etc
+
+    * networking with multiple zones, firewall, routing rules, BGP, IPsec<br /><br />
+
+    Writing IaC - Helm, Terraform, Puppet, Ansible<br />
+    Jenkins, Rundeck automation and management<br />
     Maintenance of the server fleet (roughly 200-ish physical servers, VM's, AWS/EC2 or GCP hosts)<br />
     Package maintainer for our own internal software - Debian, RedHAT<br />
     Package maintainer for mips/arm (openwrt based)<br />
@@ -19,17 +32,9 @@
     Porting our solution to Intel Quark (Galileo)<br />
     Maintaining internal apps and tools<br />
     Maintaing analytics platform(s) and gathering of data, alongside other colleagues <br />
-    Database monitoring, performance tweaking and configuration<br />
+    Database monitoring, performance tweaking and configuration (mysql, posgresql)<br />
     Writing scripts for SysV init, OpenRC, systemd, Monit, Nagios and others<br />
-    Writing IaC - Helm, Terraform, Puppet, Ansible<br />
-    Office networking-  pfSense, OPNSense, Mikrotik, Juniper, VLAN<br />
-    New deployments, manual, automated or semi-automated, with all the things in place&#x3A;
-
-    * databases (including replication)
-
-    * NFS mounts (or replicated disk mounts)
-
-    * networking with multiple zones, firewall, routing rules, BGP, IPsec
+    Office networking-  pfSense, OPNSense, Mikrotik, Juniper, VLANs<br />
 
 
     ___

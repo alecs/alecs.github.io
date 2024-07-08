@@ -1,7 +1,18 @@
+- title: helm-charts
+  link: https://github.com/SysOPSRO/helm-charts
+  info: Personal <a style="border-bottom:1px grey solid; font-weight:bold;" target="_blank" href="https://charts.sysops.ro/">charts</a> I use for work and other projetcs.
+    Right now it's only one package, busybox-httpd, which I specifically 
+    use to deliver the CA cert for K8s clusters deployed with the digitalocean-cluster-setup mentioned below.
+
 - title: digitalocean-cluster-setup
   link: https://github.com/SysOPSRO/digitalocean-cluster-setup
   info: Needed an easy way to add RBAC (auth) to an existing k8s DigitalOcean cluster by bundling some
     open source tools into a simple to deploy helm repo.
+
+- title: legacy-cloud-to-docker
+  company: eZLO LTD
+  info: Backported to docker with Alpine an app that required to be built and ran on Ubuntu 12.04 or Debian Jessie.
+    <br />Managed to make it build in 4 steps via Gitlab CI and then run in docker or podman, using nginx as a reverse proxy.
 
 - title: encrypted-firmware-retrieval
   company: eZLO LTD
@@ -21,7 +32,8 @@
 
 - title: OnCall manager
   info: Took LinkedIn's implementation of oncall and adapted it so it supports authenticating against 
-    database stored users. Code will be pushed online eventually.
+    database stored users. Created a roster managing script that fills the database per team needs.<br />
+    Code will be pushed online eventually.
 
 - title: motionpie
   link: https://github.com/alecs/motionpie
