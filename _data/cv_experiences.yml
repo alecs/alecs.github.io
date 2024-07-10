@@ -10,17 +10,22 @@
 
     * firmware integration team (2014-2020)
 
-    * analytics (ELK) (2016-2020)<br /><br />
+    * analytics (ELK) (2016-2020)
+
+
+    <br />
 
     <b>Activities:</b><br/><br/>
     Infrastructure design and deployment in AWS, GKE, DigitalOcean, Hetzner, Oracle, Azure or hybrid environments.<br />
+    
     Automating cloud components build and deploy for k8s, docker, lxc/lxd or VM's with all the things in place&#x3A;
 
     * databases (including replication, sharding)
 
     * NFS mounts, CEPH, iSCSI, glusterFS etc
 
-    * networking with multiple zones, firewall, routing rules, BGP, IPsec<br /><br />
+    * networking with multiple zones, firewall, routing rules, BGP, IPsec<br />
+
 
     Writing IaC - Helm, Terraform, Puppet, Ansible<br />
     Jenkins, Rundeck automation and management<br />
@@ -34,7 +39,7 @@
     Maintaing analytics platform(s) and gathering of data, alongside other colleagues <br />
     Database monitoring, performance tweaking and configuration (mysql, posgresql)<br />
     Writing scripts for SysV init, OpenRC, systemd, Monit, Nagios and others<br />
-    Office networking-  pfSense, OPNSense, Mikrotik, Juniper, VLANs<br />
+    Office networking -  pfSense, OPNSense, Cisco, Mikrotik, Juniper, VLANs<br />
 
 
     ___
@@ -63,7 +68,7 @@
     Software/hardware testing<br />
     Website developer - php, Perl, MySQL/PgSQL + wpress/textpattern/osCommerce<br />
     Installing and configuring servers and workstations, switches and routers<br />
-    Maintaining the nwtwork for a small ISP with <100 customers<br />
+    Maintaining the network for a small ISP with ±100 customers<br />
 
 
     ___    
