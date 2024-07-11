@@ -31,6 +31,10 @@ exclude: [gitbook_source_code/ gitbook/]
 # All the plugins for Jekyll
 plugins:
   - jekyll-sitemap
+  - jekyll-last-modified-at
+
+last-modified-at:
+    date-format: '%d-%b-%y'
 
 gems:
   - jekyll-pdf

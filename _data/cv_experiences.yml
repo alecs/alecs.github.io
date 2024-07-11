@@ -1,4 +1,4 @@
-- title: Sr DevOPS Engineer and Team Lead (JACK OF ALL TRADES)
+- title: Sr DevOPS Engineer and Team Lead <br />(JACK OF ALL TRADES)
   time: October 2013  - current
   company: eZLO
   info: <b>Caring for clusters (k8s, docker), servers, virtual machines,<br />
@@ -27,8 +27,16 @@
     * networking with multiple zones, firewall, routing rules, BGP, IPsec<br />
 
 
+    Automation and management of:<br />
+
+    * Gitlab
+
+    * Jenkins
+
+    * Rundeck
+
+
     Writing IaC - Helm, Terraform, Puppet, Ansible<br />
-    Jenkins, Rundeck automation and management<br />
     Maintenance of the server fleet (roughly 200-ish physical servers, VM's, AWS/EC2 or GCP hosts)<br />
     Package maintainer for our own internal software - Debian, RedHAT<br />
     Package maintainer for mips/arm (openwrt based)<br />
