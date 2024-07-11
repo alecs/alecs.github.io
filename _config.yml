@@ -39,4 +39,5 @@ last-modified-at:
 gems:
   - jekyll-pdf
   - jekyll-sitemap
+  - jekyll-last-modified-at
 #  - wdm-0.1.1
