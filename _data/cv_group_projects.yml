@@ -1,7 +1,7 @@
 - title: Private datacenter cloud (Orange France)
   company: eZLO LTD
   info: Designed the architecture to run our solution in a private cloud, via virtual machines running Red Hat Linux on VMWare nodes.<br />
-    Lead all the aspects related to the project&#x3A; meetings, design, porting from Ubtunu to Red Hat, installation, setup monitoring (passive and active).
+    Led all the aspects related to the project&#x3A; meetings, design, porting from Ubuntu to Red Hat, installation, setup monitoring (passive and active).
 
 - title: AWS SmartHome Cloud w private mobile APN in AT&T
   company: eZLO LTD
