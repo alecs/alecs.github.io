@@ -1,9 +1,0 @@
-I"<p><b>Taking care of servers, firmware integration, debian packages, analytics</b><br /> <b>Lead for:<br /></b></p>
-<ul>
-  <li>sysadmins/devops</li>
-  <li>firmware integration team</li>
-  <li>analytics (ELK)<br /><br /></li>
-</ul>
-
-<p><b>Activities:</b><br /> Maintenance of the server fleet (roughly 200-ish physical servers, VM’s, AWS/EC2 or GCP hosts)<br /> Package maintainer for our own internal software, both x86_64 (Debian, RedHAT) and mips (openwrt based) Backporting libraries for OpenWRT apps (c/c++)</p>
-:ET

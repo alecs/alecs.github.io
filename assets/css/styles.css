@@ -260,19 +260,26 @@ p {
   }
 
   .skillset .item {
-    margin-bottom: 15px;
+    margin-bottom: 0px;
     float: left;
-    margin-left:10px;
+    margin-left: 5px;
     overflow: hidden;
+    display: inline-block;
   }
 
   .skillset {
     display: table-cell;
+    width: 100%;
     float: none;
   }
 
   .skills-section .section-title {
-    padding-top: 140px;
+    padding-top: 0px;
+  }
+
+  .main-wrapper .time {
+    position: unset;
+    float: left;
   }
 }
 

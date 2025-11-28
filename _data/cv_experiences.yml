@@ -1,5 +1,49 @@
+- title: Sr DevOPS Engineer<br />
+  time: September 2024 - current
+  company: Move Travel Technologies LTD
+  info: <b>Managing infrastructure in AWS</b><br />
+    <br /><br />
+
+    <b>Used skills/tools:</b><br />
+
+    * Terraform
+
+    * Helm
+
+    * docker
+
+    * aws cli & api
+
+    * bash
+
+    * python
+
+    * podman
+
+    * rundeck
+
+    * ArgoCD
+
+
+
+    <b>Notable projetcs</b><br />
+
+    * implementing a monitoring system with prometheus, grafana, elasticsearch
+
+    * repurpose multiple repositories handling infra into one single project, improving structure and optimising the deployment flow
+
+    * implementing autoscaling with keda, to optimise cost and speed
+
+    <br />
+
+
+    ___
+
+    Name and address of employer&#x3A; Move Travel Technologies LTD, 5 Hatidhar St., 4366507 Ra'anana
+
+
 - title: Sr DevOPS Engineer and Team Lead <br />(JACK OF ALL TRADES)
-  time: October 2013  - current
+  time: October 2013  - September 2024
   company: eZLO
   info: <b>Caring for clusters (k8s, docker), servers, virtual machines,<br />
     alongside firmware integration, packaging (deb/rpm), analytics (ELK)</b><br /><br />

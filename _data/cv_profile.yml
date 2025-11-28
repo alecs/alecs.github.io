@@ -1,14 +1,16 @@
 summary: <h4>Searching for a job in IT, be it remote or onsite (Iasi, Romania).</h4>
     Please do not contact me for opportunities that require skills that I do not own, nor for ones 
     that require less skills/expertise than I currently have.<br /><br />
-    Eighteen year old with 22yr experience in *nix based systems.<br />
+    Eighteen year old with 23yr experience in *nix based systems.<br />
     Perl, bash, sed, awk, make, cmake, some ansi c, some php, some python, kernel hacking, embedded dev (mips, arm, atmel/arduino).<br />
     Networking experience&#x3A; Mikrotik, Cisco L2-3, Juniper, bgp, ospf, rip, IpSec, multihoming.<br />
     Virtualization&#x3A; OpenVZ, Xen, Kvm, Qemu, VmWare, VirtualBox, FreeBSD containers, lxc, docker<br /><br />
 
-    &clubs; Worked for the same employer for the last 11 years. Started as a sysadmin with some embedded development tasks (porting stack to a different platform &#45; openwrt based with c/cmake/make/bash and some scripting and backporting of libraries), switched to devops and then devops lead - where I managed a team of 8 members maximum.<br /><br />
+    &clubs; Worked for one employer for 11 years. Started as a sysadmin with some embedded development tasks (porting stack to a different platform &#45; openwrt based with c/cmake/make/bash and some scripting and backporting of libraries), switched to devops and then devops lead - where I managed a team of 8 members maximum.<br /><br />
     &diams; Led some big clients from heads to toes, as Orange France &#45; for their SmartHome platform &#45; hardware requirements for the platform, datacenter design with vmware, backporting app to RedHat (from Debian), deployments with rundeck and ansible, monitoring and end&#45;to&#45;end testing automation using containers, scripts and headless browser leveraging PhantomJS.<br /><br />
     &spades; For another big client (Nortek), created a setup that had to provide services to a set of alarm panels which connected to our private network through 3G provided by AT&T. The connection between AT&T and our VPC used multiple IPSec tunnels and BGP.
+    
+    <br /><br /><br /><br />
 
 education:
     - degree: Engineer's degree (NO LICENSE)
