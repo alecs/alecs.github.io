@@ -28,7 +28,7 @@ jobs:
       run: |
         docker run \
         -v ${{ github.workspace }}:/srv/hugo -v ${{ github.workspace }}/_site:/srv/hugo/_site \
-        klakegg/hugo:latest /bin/bash -c "mkdir -p /srv/hugo/_site/blog && hugo build --source /srv/hugo/_blog"
+        klakegg/hugo:latest /bin/sh -c "mkdir -p /srv/hugo/_site/blog && hugo build --source /srv/hugo/_blog"
     - name: Upload artifact
       uses: actions/upload-pages-artifact@v3
 
