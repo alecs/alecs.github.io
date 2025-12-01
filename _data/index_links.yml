@@ -5,3 +5,7 @@
 - link: cv.pdf
   hoover_text: My resume - PDF (Alex Negulescu)
   title: CV PDF 📑
+
+- link: blog/
+  hoover_text: My blog
+  title: BLOG ✏️

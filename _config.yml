@@ -24,9 +24,10 @@ linkedin: alecsey
 github: alecs
 twitter: '@antis0cialul'
 pdfcv: 'cv.pdf'
+blog: '/blog/'
 
 # Files or folders to be excluded
-exclude: [gitbook_source_code/ gitbook/]
+exclude: [gitbook_source_code/ gitbook/ _blog]
 
 # All the plugins for Jekyll
 plugins:
