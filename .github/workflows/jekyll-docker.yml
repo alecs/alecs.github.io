@@ -22,13 +22,13 @@ jobs:
     - name: Build the site in the jekyll/builder container
       run: |
         docker run \
-        -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
+        -v ${{ github.workspace }}:/srv/jekyll \
         jekyll/builder:latest /bin/bash -c "chmod -R 777 /srv/jekyll && gem install jekyll-sitemap && gem install jekyll-last-modified-at && jekyll build --future"
     - name: Build the site in the hugo container
       run: |
         docker run \
-        -v ${{ github.workspace }}:/srv/hugo -v ${{ github.workspace }}/_site:/srv/hugo/_site \
-        klakegg/hugo:latest --entrypoint=/bin/sh -c "mkdir -p /srv/hugo/_site/blog && hugo build --source /srv/hugo/_blog"
+        -v ${{ github.workspace }}:/srv/hugo \
+        klakegg/hugo:latest "build --source /srv/hugo/_blog -d /srv/hugo/_site/blog"
     - name: Upload artifact
       uses: actions/upload-pages-artifact@v3
 
