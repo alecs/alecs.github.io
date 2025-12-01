@@ -28,7 +28,7 @@ jobs:
       run: |
         docker run \
         -v ${{ github.workspace }}:/srv/hugo \
-        ghcr.io/gohugoio/hugo:latest hugo --source /srv/hugo/_blog -d /srv/hugo/_site/blog
+        ghcr.io/gohugoio/hugo:latest --source /srv/hugo/_blog -d /srv/hugo/_site/blog
     - name: Upload artifact
       uses: actions/upload-pages-artifact@v3
 
