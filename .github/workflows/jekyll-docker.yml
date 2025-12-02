@@ -33,7 +33,7 @@ jobs:
       uses: actions/upload-pages-artifact@v3
       with:
         name: site-artifact
-        path: ${{ github.workspace }}/_site/**
+        path: ${{ github.workspace }}/_site
 
   # Deployment job
   deploy:
