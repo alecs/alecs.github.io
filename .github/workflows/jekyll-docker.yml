@@ -25,29 +25,40 @@ jobs:
         # ghcr.io/gohugoio/hugo:latest
         # rockstorm/jekyll:latest
         docker run \
-        -v ${{ github.workspace }}:/srv/jekyll \
+        -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
         rockstorm/jekyll:latest /bin/bash -c "chmod -R 777 /srv/jekyll && gem install jekyll-sitemap && gem install jekyll-last-modified-at && jekyll build --future"
         docker run \
-        -v ${{ github.workspace }}:/srv/hugo \
+        -v ${{ github.workspace }}:/srv/hugo -v ${{ github.workspace }}/_site:/srv/hugo/_site \
         --entrypoint=/bin/sh \
-        ghcr.io/gohugoio/hugo:latest -c "ls -la /srv/hugo/_blog; cd /srv/hugo/_blog; hugo -d /srv/hugo/_site/blog"
-        cd ${{ github.workspace }}/_site
-        ls -lah
-        ls -lah blog/
-    - name: Upload artifact
-      uses: actions/upload-pages-artifact@v3
+        ghcr.io/gohugoio/hugo:latest -c "ls -la /srv/hugo/_blog; cd /srv/hugo/_blog; hugo"
+        cd ${{ github.workspace }}
+        pwd
+        ls -lah 
+
+        #ls -lah _site
+        #ls -lah _site/blog/
+    # - name: Upload artifact
+    #   uses: actions/upload-pages-artifact@v3
+    #   with:
+    #     name: github-pages
+    #     path: ${{ github.workspace }}/_site
+
+
+    - name: Deploy
+      uses: peaceiris/actions-gh-pages@v3
       with:
-        name: github-pages
-        path: ${{ github.workspace }}/_site
+        github_token: ${{ secrets.GH_PAT }}
+        publish_dir: ./_site
+        force_orphan: true
 
   # Deployment job
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    needs: build
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+  # deploy:
+  #   environment:
+  #     name: github-pages
+  #     url: ${{ steps.deployment.outputs.page_url }}
+  #   runs-on: ubuntu-latest
+  #   needs: build
+  #   steps:
+  #     - name: Deploy to GitHub Pages
+  #       id: deployment
+  #       uses: actions/deploy-pages@v4
