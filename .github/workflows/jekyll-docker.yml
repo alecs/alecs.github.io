@@ -28,7 +28,7 @@ jobs:
       run: |
         docker run \
         -v ${{ github.workspace }}:/srv/hugo \
-        klakegg/hugo:latest --source /srv/hugo/_blog -d /srv/hugo/_site/blog
+        jamespegg/hugo:latest --source /srv/hugo/_blog -d /srv/hugo/_site/blog
     - name: Let's see the tree !
       run: |
         cd ${{ github.workspace }}/_site
