@@ -16,19 +16,24 @@ concurrency:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04-arm
     steps:
     - uses: actions/checkout@v4
     - name: Build the site in the jekyll/builder container
       run: |
         docker run \
         -v ${{ github.workspace }}:/srv/jekyll \
-        jekyll/builder:latest /bin/bash -c "chmod -R 777 /srv/jekyll && gem install jekyll-sitemap && gem install jekyll-last-modified-at && jekyll build --future"
+        jekyll/builder:latest /bin/bash -c "gem install jekyll-sitemap && gem install jekyll-last-modified-at && jekyll build --future"
     - name: Build the site in the hugo container
       run: |
         docker run \
         -v ${{ github.workspace }}:/srv/hugo \
         ghcr.io/gohugoio/hugo:latest --source /srv/hugo/_blog -d /srv/hugo/_site/blog
+    # - name: Let's see the tree !
+    #   run: |
+    #     cd ${{ github.workspace }}/_site
+    #     ls -lah
+    #     ls -lah blog
     - name: Upload artifact
       uses: actions/upload-pages-artifact@v3
       with:
