@@ -23,7 +23,7 @@ jobs:
       run: |
         docker run \
         -v ${{ github.workspace }}:/srv/jekyll \
-        rockstorm/jekyll:latest /bin/bash -c "gem install jekyll-sitemap && gem install jekyll-last-modified-at && jekyll build --future"
+        rockstorm/jekyll:latest /bin/bash -c "chmod -R 777 /srv/jekyll && gem install jekyll-sitemap && gem install jekyll-last-modified-at && jekyll build --future"
     - name: Build the site in the hugo container
       run: |
         docker run \
