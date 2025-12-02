@@ -31,6 +31,9 @@ jobs:
         ghcr.io/gohugoio/hugo:latest --source /srv/hugo/_blog -d /srv/hugo/_site/blog
     - name: Upload artifact
       uses: actions/upload-pages-artifact@v3
+      with:
+        name: site-artifact
+        path: ${{ github.workspace }}/_site/**
 
   # Deployment job
   deploy:
