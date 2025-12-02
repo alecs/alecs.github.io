@@ -21,6 +21,7 @@ jobs:
     - uses: actions/checkout@v4
     - name: Build the site for both Jekyll and Hugo
       run: |
+        git submodule update -f --checkout --recursive
         # these support both arm and amd
         # ghcr.io/gohugoio/hugo:latest
         # rockstorm/jekyll:latest
@@ -32,33 +33,33 @@ jobs:
         --entrypoint=/bin/sh \
         ghcr.io/gohugoio/hugo:latest -c "ls -la /srv/hugo/_blog; cd /srv/hugo/_blog; hugo"
         cd ${{ github.workspace }}
-        pwd
-        ls -lah 
-
-        #ls -lah _site
-        #ls -lah _site/blog/
-    # - name: Upload artifact
-    #   uses: actions/upload-pages-artifact@v3
-    #   with:
-    #     name: github-pages
-    #     path: ${{ github.workspace }}/_site
-
-
-    - name: Deploy
-      uses: peaceiris/actions-gh-pages@v3
+        echo "Current path: $(pwd)"
+        echo "Site content:"
+        ls -lah _site
+        echo "Blog content:"
+        ls -lah _site/blog/
+    - name: Upload artifact
+      uses: actions/upload-pages-artifact@v3
       with:
-        github_token: ${{ secrets.GH_PAT }}
-        publish_dir: ./_site
-        force_orphan: true
+        name: github-pages
+        path: ${{ github.workspace }}/_site
+
+
+    # - name: Deploy
+    #   uses: peaceiris/actions-gh-pages@v3
+    #   with:
+    #     github_token: ${{ secrets.GH_PAT }}
+    #     publish_dir: ./_site
+    #     force_orphan: true
 
   # Deployment job
-  # deploy:
-  #   environment:
-  #     name: github-pages
-  #     url: ${{ steps.deployment.outputs.page_url }}
-  #   runs-on: ubuntu-latest
-  #   needs: build
-  #   steps:
-  #     - name: Deploy to GitHub Pages
-  #       id: deployment
-  #       uses: actions/deploy-pages@v4
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
