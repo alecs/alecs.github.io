@@ -16,24 +16,24 @@ concurrency:
 
 jobs:
   build:
-    runs-on: ubuntu-24.04-arm
+    runs-on: ubuntu-24.04
     steps:
     - uses: actions/checkout@v4
-    - name: Build the site in the jekyll/builder container
+    - name: Build the site for both Jekyll and Hugo
       run: |
+        # these support both arm and amd
+        # ghcr.io/gohugoio/hugo:latest
+        # rockstorm/jekyll:latest
         docker run \
         -v ${{ github.workspace }}:/srv/jekyll \
         rockstorm/jekyll:latest /bin/bash -c "chmod -R 777 /srv/jekyll && gem install jekyll-sitemap && gem install jekyll-last-modified-at && jekyll build --future"
-    - name: Build the site in the hugo container
-      run: |
         docker run \
         -v ${{ github.workspace }}:/srv/hugo \
-        ghcr.io/gohugoio/hugo:latest --source /srv/hugo/_blog -d /srv/hugo/_site/blog
-    # - name: Let's see the tree !
-    #   run: |
-    #     cd ${{ github.workspace }}/_site
-    #     ls -lah
-    #     ls -lah blog
+        --entrypoint=/bin/sh \
+        ghcr.io/gohugoio/hugo:latest -c "ls -la /srv/hugo/_blog; cd /srv/hugo/_blog; hugo -d /srv/hugo/_site/blog"
+        cd ${{ github.workspace }}/_site
+        ls -lah
+        ls -lah blog/
     - name: Upload artifact
       uses: actions/upload-pages-artifact@v3
       with:
