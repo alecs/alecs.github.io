@@ -1,14 +1,33 @@
-#baseURL = "https://alecs.negulescu.me/blog/"
-baseURL = "http://localhost:1313/"
+baseURL = "https://alecs.negulescu.me/blog/"
+#baseURL = "http://localhost:1313/" # dev mode
+#baseURL = "http://localhost:8000/blog" # test mode mode
 languageCode = "en-us"
+defaultContentLanguage = "en"
 title = "The Corner of Alecs"
 theme = "blowfish"
 publishDir = "../_site/blog"
 pluralizeListTitles = "true"
 enableRobotsTXT = true
 summaryLength = 0
+enableEmoji = true
+
 
 # googleAnalytics = ""
+
+[privacy]
+  [privacy.disqus]
+    disable = true
+  [privacy.googleAnalytics]
+    disable = true
+  [privacy.instagram]
+    disable = true
+  [privacy.x]
+    disable = true
+  [privacy.vimeo]
+    disable = true
+  [privacy.youtube]
+    disable = false
+    privacyEnhanced = true
 
 [pagination]
   pagerSize = 12
@@ -29,3 +48,35 @@ summaryLength = 0
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
+
+[related]
+  contentLimit = 1
+  threshold = 80
+  includeNewer = true
+  toLower = false
+
+    [[related.indices]]
+        name = "tags"
+        weight = 100
+
+    [[related.indices]]
+        name = "categories"
+        weight = 100
+
+    [[related.indices]]
+        name = "series"
+        weight = 50
+
+    [[related.indices]]
+        name = "authors"
+        weight = 20
+
+    [[related.indices]]
+        name = "date"
+        weight = 10
+
+    [[related.indices]]
+      applyFilter = false
+      name = 'fragmentrefs'
+      type = 'fragments'
+      weight = 10

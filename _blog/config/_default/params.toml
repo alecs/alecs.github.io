@@ -1,12 +1,12 @@
 colorScheme = "slate"
 disableImageOptimization = true
-defaultBackgroundImage = "https://alecs.negulescu.me/index_style/images/background-cover.gif"
+defaultBackgroundImage = "background-cover.gif"
 defaultAppearance = "dark"
 autoSwitchAppearance = false
 
 [homepage]
   layout = "background" # valid options: page, profile, hero, card, background, custom
-  homepageImage = "https://alecs.negulescu.me/index_style/images/background-cover.gif" # used in: hero, and card
+  homepageImage = "background-cover.gif" # used in: hero, and card
   showRecent = true
   showRecentItems = 6
   showMoreLink = false
@@ -17,6 +17,13 @@ autoSwitchAppearance = false
 
 [header]
   layout = "fixed"
+
+[footer]
+showMenu = true
+showCopyright = true
+showThemeAttribution = true
+showAppearanceSwitcher = true
+showScrollToTop = true
 
 [article]
   showHero = true
@@ -30,3 +37,5 @@ autoSwitchAppearance = false
   showCards = true
   groupByYear = false
   cardView = true
+  showHero = true
+  heroStyle = "background" 
