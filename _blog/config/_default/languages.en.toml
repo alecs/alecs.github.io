@@ -1,5 +1,22 @@
-[author]
+title = "The Corner of Alecs"
+
+[params]
+displayName = "EN"
+isoCode = "en"
+rtl = false
+dateFormat = "2 January 2006"
+description = "👋 Hi there!"
+
+[params.author]
    name = "Alecs"
-   image = "/assets/images/profile.png"
+   image = "profile.png"
    headline = "Reverse engineering stuff and hacking things"
    bio = "Sr. DevOPS/Sysadmin. Mostly coding, networking and mixes of the two. Father, animal lover, vinyl addict, amateur photographer."
+   links = [
+    { mastodon = "https://punct.me/@alecs/" },
+    { linkedin = "https://www.linkedin.com/in/alecsey/" },
+    { telegram = "https://t.me/sysopsro" },
+    { github = "https://github.com/alecs" },
+    { github = "https://github.com/sysopsro" },
+    { link = "https://www.sysops.ro/" }
+   ]

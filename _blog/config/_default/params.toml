@@ -1,14 +1,16 @@
-colorScheme = "neon"
-disableImageOptimization = false
-defaultBackgroundImage = "/index_style/images/background-cover.gif"
+colorScheme = "slate"
+disableImageOptimization = true
+defaultBackgroundImage = "https://alecs.negulescu.me/index_style/images/background-cover.gif"
+defaultAppearance = "dark"
+autoSwitchAppearance = false
 
 [homepage]
   layout = "background" # valid options: page, profile, hero, card, background, custom
-  homepageImage = "/index_style/images/background-cover.gif" # used in: hero, and card
+  homepageImage = "https://alecs.negulescu.me/index_style/images/background-cover.gif" # used in: hero, and card
   showRecent = true
   showRecentItems = 6
-  showMoreLink = true
-  showMoreLinkDest = "posts/"
+  showMoreLink = false
+  showMoreLinkDest = "posts"
   cardView = true
   cardViewScreenWidth = false
   layoutBackgroundBlur = true # only used when layout equals background

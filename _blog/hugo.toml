@@ -1,5 +1,0 @@
-baseURL = "https://alecs.negulescu.me/blog/"
-languageCode = "en-us"
-title = "The Corner of Alecs"
-theme = "blowfish"
-publishDir = "../_site/blog"

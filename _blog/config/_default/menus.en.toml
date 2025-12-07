@@ -7,3 +7,8 @@
   name = "Tags"
   pageRef = "tags"
   weight = 30
+
+[[footer]]
+ name = "About"
+ pageRef = "about"
+ weight = 10

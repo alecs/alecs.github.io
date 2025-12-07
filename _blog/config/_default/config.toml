@@ -1,0 +1,31 @@
+#baseURL = "https://alecs.negulescu.me/blog/"
+baseURL = "http://localhost:1313/"
+languageCode = "en-us"
+title = "The Corner of Alecs"
+theme = "blowfish"
+publishDir = "../_site/blog"
+pluralizeListTitles = "true"
+enableRobotsTXT = true
+summaryLength = 0
+
+# googleAnalytics = ""
+
+[pagination]
+  pagerSize = 12
+
+[imaging]
+  anchor = 'Center'
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  author = "authors"
+  series = "series"
+
+[sitemap]
+  changefreq = 'always'
+  filename = 'sitemap.xml'
+  priority = 0.5
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
